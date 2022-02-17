@@ -1,5 +1,5 @@
 {
-  "name": "license-checker",
+  "name": "@tomesgmbh/license-checker",
   "description": "Check license info for a package",
   "author": "Dav Glass <davglass@gmail.com>",
   "version": "25.0.1",
@@ -23,6 +23,7 @@
     "Honza Javorek <mail@honzajavorek.cz>",
     "Ivan Latunov <ivan.latunov@chaosgroup.com>",
     "James Bloomer <github2@thebloomers.co.uk>",
+    "Jiri Zamecnik <24247044+zameji@users.noreply.github.com>",
     "Jonny Reeves <john.reeves@improbable.io>",
     "Jonny Reeves <jonny@improbable.io>",
     "Ladislav Prskavec <abtris@Ladislavs-MacBook-Pro.local>",
@@ -94,7 +95,7 @@
   },
   "scripts": {
     "changes": "github-changes -o davglass -r license-checker",
-    "contrib": "./scripts/contrib.js",
+    "contrib": "node ./scripts/contrib.js",
     "pretest": "eslint --fix .",
     "test": "jenkins-mocha ./tests/*.js",
     "posttest": "nyc check-coverage && nyc report -r lcov -r text -r text-summary"
@@ -106,7 +107,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "http://github.com/davglass/license-checker.git"
+    "url": "http://github.com/tomesgmbh/license-checker.git"
   },
   "nyc": {
     "check-coverage": true,

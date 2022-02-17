@@ -1,7 +1,8 @@
-NPM License Checker
+NPM License Checker: @TomesGmbH FORK
 ===================
 
-[![Build Status](https://www.travis-ci.org/davglass/license-checker.svg?branch=master)](https://www.travis-ci.org/davglass/license-checker)
+Extends the default license checker with scope exclusion and non-versioned package skipping.
+
 
 *As of v17.0.0 the `failOn` and `onlyAllow` arguments take semicolons as delimeters instead of commas. Some license names contain
 commas and it messed with the parsing*
